@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Poppins; }
+
+#info {
+  color: #8d8d8d;
+  margin-top: 16px;
+  margin-bottom: -58px;
+  font-size: 11px;
+  letter-spacing: 1.1px; }
+
+nav .nav-logo {
+  padding-right: 140px;
+  margin-top: 8px; }
+nav .navbar-nav {
+  padding-top: 17px;
+  padding-right: 17px;
+  font-size: 16px; }
+
+#header {
+  background-image: linear-gradient(299deg, rgba(247, 148, 33, 0.25), rgba(8, 114, 185, 0.25)), url(../img/image_1.png);
+  height: 84vh;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 10; }
+  #header .header__text {
+    margin-top: 251px; }
+    #header .header__text h1 {
+      text-transform: uppercase;
+      font-size: 81px;
+      height: 61px; }
+    #header .header__text h2 {
+      text-transform: uppercase;
+      font-size: 52px;
+      height: 61px;
+      line-height: 2; }
+
+#aboutus h5 {
+  margin-top: 98px;
+  margin-bottom: 70px;
+  font-size: 24px;
+  line-height: 1.42; }
+  #aboutus h5 span {
+    color: #0872ba; }
+#aboutus p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #636363; }
+#aboutus .aboutus__image-women {
+  height: 490px;
+  width: 238px;
+  position: relative;
+  margin-top: 50px; }
+#aboutus .aboutus__image-arch {
+  width: 592px;
+  height: 592px;
+  margin-top: -65px;
+  position: absolute;
+  z-index: 0; }
